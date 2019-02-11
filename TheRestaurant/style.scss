@@ -94,18 +94,20 @@ $pFont: 'Cinzel', serif;
 
 .aboutUs {
   background-color: black;
-  height: 550px;
+  height: auto;
+  padding-left: 0;
+  padding-bottom: 0;
   .info {
-    top: 30px;
+    margin-top: 30px;
     text-align: center;
     h2 {
-      top: 60px;
+      margin-top: 45px;
       position: relative;
       color: white;
       font-family: $pFont;
     }
     p {
-      top: 50px;
+      margin-top: 5px;
       position: relative;
       color: white;
       opacity: 0.8;
@@ -119,7 +121,7 @@ $pFont: 'Cinzel', serif;
   .line {
       border-bottom: solid 3px #FFD700;
       width: 150px;
-      top: 20px;
+      margin-top: 30px;
       position: relative;
     }
   }
