@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 $navFont: 'Indie Flower', cursive;
+$pFont: 'Cinzel', serif;
 
 /*PC*/
 @media screen and (min-width: 1200px) {
@@ -40,7 +42,7 @@ $navFont: 'Indie Flower', cursive;
       text-decoration: none;
       font-size: 22px;
       color: white;
-      font-family: $navFont;
+      font-family: $pFont;
       margin: 0px 30px 0px 10px;
       background-image: linear-gradient(#cccccc, #cccccc);
       background-size: 0 5px, auto;
@@ -75,7 +77,10 @@ $navFont: 'Indie Flower', cursive;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: 'Permanent Marker', cursive;
+  font-family: $pFont;
+  font-weight: 500;
+  padding: 8px;
+  opacity: 0.9;
   h1 {
     font-size: 60px;
     letter-spacing: 1.5px;
@@ -84,5 +89,38 @@ $navFont: 'Indie Flower', cursive;
   p {
     font-size: 20px;
     letter-spacing: 0.8px;
+  }
+}
+
+.aboutUs {
+  background-color: black;
+  height: 550px;
+  .info {
+    top: 30px;
+    text-align: center;
+    h2 {
+      top: 60px;
+      position: relative;
+      color: white;
+      font-family: $pFont;
+    }
+    p {
+      top: 50px;
+      position: relative;
+      color: white;
+      opacity: 0.8;
+      font-family: $pFont;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+      font-family: $pFont;
+    }
+  .line {
+      border-bottom: solid 3px #FFD700;
+      width: 150px;
+      top: 20px;
+      position: relative;
+    }
   }
 }
