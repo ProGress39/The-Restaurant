@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$mainFont: 'Raleway', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.topnav {
+    background-color: hsla(0, 0%, 0%, 0.8);
+    overflow: hidden;
+    height: 70px;
+    a {
+      float: left;
+      text-align: center;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      font-family: $mainFont;
+        &:hover{
+
+        }
+    }
+}
+
+.topnav-right {
+  float: right;
+}
