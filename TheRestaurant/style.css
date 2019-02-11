@@ -72,6 +72,9 @@
   height: auto;
   padding-left: 0;
   padding-bottom: 0; }
+  .aboutUs .info_photo {
+    padding-left: 0;
+    padding-right: 0; }
   .aboutUs .info {
     margin-top: 30px;
     text-align: center; }
