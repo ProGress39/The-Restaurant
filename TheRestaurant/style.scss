@@ -199,6 +199,70 @@ $pFont: 'Cinzel', serif;
     }
 }
 
+.contact_message {
+  text-align: center;
+  font-family: $pFont;
+  margin-bottom: 10px;
+  background-color: black;
+  .line {
+      border-bottom: solid 3px #FFD700;
+      width: 150px;
+      margin-top: 30px;
+      position: relative;
+      margin-bottom: 20px;
+    }
+}
+
+.contact_container {
+  margin-top: -10px;
+}
+
+@media screen and (min-width: 996px) {
+  .contact_message {
+    color: white;
+    h6 {
+      opacity: 0.8;
+      margin-bottom: -20px;
+      padding-top: 20px;
+    }
+    .line {
+        border-bottom: solid 3px #FFD700;
+        width: 150px;
+        margin-top: 30px;
+        position: relative;
+        margin-bottom: 20px;
+      }
+    h4 {
+      margin-top: -10px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .contact_message {
+    color: white;
+    display: none;
+    h6 {
+      opacity: 0.8;
+      margin-bottom: -20px;
+      padding-top: 20px;
+    }
+    .line {
+        border-bottom: solid 3px #FFD700;
+        width: 150px;
+        margin-top: 30px;
+        position: relative;
+        margin-bottom: 20px;
+      }
+    h4 {
+      margin-top: -10px;
+    }
+
+  }
+}
+
+
 
 .contact {
   background-color: black;
@@ -356,5 +420,25 @@ $pFont: 'Cinzel', serif;
     input[type='text'], [type='email'], select, textarea {
       font-size: 0.875em;
     }
+  }
+}
+
+.contact_info {
+  background-color: black;
+  .contact_logo{
+    margin-top: 20px;
+  }
+  .line {
+    border-bottom: solid 1px #FFD700;
+    width: 250px;
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  p {
+    color: white;
+    font-family: $pFont;
+    text-align: center;
+    margin-top: 30px;
   }
 }

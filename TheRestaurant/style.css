@@ -157,6 +157,52 @@
     position: relative;
     margin-bottom: 20px; }
 
+.contact_message {
+  text-align: center;
+  font-family: "Cinzel", serif;
+  margin-bottom: 10px;
+  background-color: black; }
+  .contact_message .line {
+    border-bottom: solid 3px #FFD700;
+    width: 150px;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 20px; }
+
+.contact_container {
+  margin-top: -10px; }
+
+@media screen and (min-width: 996px) {
+  .contact_message {
+    color: white; }
+    .contact_message h6 {
+      opacity: 0.8;
+      margin-bottom: -20px;
+      padding-top: 20px; }
+    .contact_message .line {
+      border-bottom: solid 3px #FFD700;
+      width: 150px;
+      margin-top: 30px;
+      position: relative;
+      margin-bottom: 20px; }
+    .contact_message h4 {
+      margin-top: -10px; } }
+@media screen and (max-width: 996px) {
+  .contact_message {
+    color: white;
+    display: none; }
+    .contact_message h6 {
+      opacity: 0.8;
+      margin-bottom: -20px;
+      padding-top: 20px; }
+    .contact_message .line {
+      border-bottom: solid 3px #FFD700;
+      width: 150px;
+      margin-top: 30px;
+      position: relative;
+      margin-bottom: 20px; }
+    .contact_message h4 {
+      margin-top: -10px; } }
 .contact {
   background-color: black;
   font-family: "Cinzel", serif; }
@@ -265,5 +311,21 @@
       width: 53px; }
     .contact input[type='text'], .contact [type='email'], .contact select, .contact textarea {
       font-size: 0.875em; } }
+
+.contact_info {
+  background-color: black; }
+  .contact_info .contact_logo {
+    margin-top: 20px; }
+  .contact_info .line {
+    border-bottom: solid 1px #FFD700;
+    width: 250px;
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 20px; }
+  .contact_info p {
+    color: white;
+    font-family: "Cinzel", serif;
+    text-align: center;
+    margin-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */
