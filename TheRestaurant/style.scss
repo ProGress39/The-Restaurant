@@ -66,7 +66,7 @@ $pFont: 'Cinzel', serif;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 620px;
+  height: 660px;
 }
 
 /* Place text in the middle of the image */
@@ -168,14 +168,46 @@ $pFont: 'Cinzel', serif;
      height: 40px;
    }
    h3 {
-
    }
    .opinion_text {
      opacity: 0.7;
+     letter-spacing: 0.6px;
    }
    .sign {
      font-size: 17px;
      margin-bottom: 60px;
    }
   }
+}
+
+.menu {
+ background-color: black;
+ font-family: $pFont;
+ color: white;
+ text-align: center;
+  .menu_info {
+   h6 {
+     margin-bottom: -20px;
+     opacity: 0.7;
+   }
+   h3 {
+     margin-top: -10px;
+     margin-bottom: 15px;
+   }
+   p {
+     opacity: 0.7;
+     letter-spacing: 0.7px;
+   }
+
+  }
+  .menu_gallery {
+
+  }
+  .line {
+      border-bottom: solid 3px #FFD700;
+      width: 150px;
+      margin-top: 30px;
+      position: relative;
+      margin-bottom: 20px;
+    }
 }
