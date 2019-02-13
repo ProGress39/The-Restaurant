@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box; }
 
-.topnav {
+.topnav_all {
   background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   top: 0;
@@ -16,8 +16,7 @@
   position: fixed;
   width: 100%;
   z-index: 1; }
-  .topnav a {
-    float: left;
+  .topnav_all a {
     text-align: center;
     text-decoration: none;
     font-size: 22px;
@@ -29,20 +28,32 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all .2s ease-out; }
-    .topnav a:hover {
+    .topnav_all a:hover {
       background-size: 100% 5px, auto; }
 
-.topnav-right {
+.topnav {
   float: right;
   margin-right: 40px; }
 
 .hero-image {
+  overflow-x: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://u.profitroom.pl/2014.palacbonerowski.pl/thumb/1600x900/uploads/restauracje/restauracja_steak_fish.jpg?mode=crop");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  height: 660px; }
+  position: relative; }
+  @media screen and (min-width: 1200px) {
+    .hero-image {
+      height: 660px; } }
+  @media screen and (max-width: 576px) {
+    .hero-image {
+      height: 400px; } }
+  @media screen and (min-width: 576px) and (max-width: 850px) {
+    .hero-image {
+      height: 500px; } }
+  @media screen and (min-width: 850px) and (max-width: 1200px) {
+    .hero-image {
+      height: 600px; } }
 
 /* Place text in the middle of the image */
 .hero-text {
@@ -66,7 +77,8 @@
 
 .aboutUs {
   background-color: black;
-  height: auto; }
+  height: auto;
+  overflow-x: hidden; }
   .aboutUs .info_photo {
     padding-left: 0;
     padding-right: 0; }
@@ -95,14 +107,17 @@
       position: relative; }
 
 #steak1 {
+  overflow-x: hidden;
   width: 100%;
   height: 100%; }
 
 #steak2 {
+  overflow-x: hidden;
   width: 100%;
   height: 100%; }
 
 .recommendations {
+  overflow-x: hidden;
   height: auto;
   background-color: black;
   color: white;
