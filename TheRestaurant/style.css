@@ -120,11 +120,17 @@
     .recommendations .recommendations_intro .line {
       border-bottom: solid 1px #FFD700;
       width: 300px; }
-  .recommendations .opinion .stars {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    width: 130px;
-    height: 40px;
+  .recommendations .opinion {
     text-align: center; }
+    .recommendations .opinion .stars {
+      margin-top: 30px;
+      margin-bottom: 8px;
+      width: 130px;
+      height: 40px; }
+    .recommendations .opinion .opinion_text {
+      opacity: 0.7; }
+    .recommendations .opinion .sign {
+      font-size: 17px;
+      margin-bottom: 60px; }
 
 /*# sourceMappingURL=style.css.map */
