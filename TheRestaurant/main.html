@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Steak House</title>
   </head>
   <!--nawigacja-->
   <header>
-    <nav class="topnav">
+    <nav class="topnav" data-aos="zoom-out">
       <div class="topnav-right">
         <a href="#MainPage">Strona główna</a>
         <a href="#oNas">O nas</a>
@@ -18,7 +19,7 @@
     </nav>
   </header>
   <body>
-    <div class="hero-image" id="MainPage">
+    <div class="hero-image" id="MainPage" data-aos="zoom-out">
       <div class="hero-text">
         <h1>Steak House</h1>
         <p>Najlepsze steki w Polsce</p>
@@ -26,7 +27,7 @@
     </div>
     <div class="container-fluid aboutUs" id="oNas">
       <div class="row">
-        <div class="col-12 col-lg-6 info">
+        <div class="col-12 col-lg-6 info" data-aos="fade-left">
           <h1>Witamy w Steak House!</h1>
           <center><div class="line"></div></center>
           <h2>O nas</h2>
@@ -39,16 +40,16 @@
             piwniczce.</p>
         </div>
        <div class="col-12 col-lg-6 info_photo">
-         <img class="img-fluid" id="steak1" src="http://cdn.luxuo.com/2018/08/665Andaz.jpg" alt="zdjęcie steka" />
+         <img class="img-fluid" id="steak1" src="http://cdn.luxuo.com/2018/08/665Andaz.jpg" alt="zdjęcie steka" data-aos="slide-right" />
        </div>
      </div>
    </div>
    <div class="container-fluid aboutUs">
      <div class="row">
        <div class="col-12 col-lg-6 order-lg-1 order-2  info_photo">
-         <img class="img-fluid" id="steak2" src="http://cdn.luxuo.com/2017/06/Chow-Kik-Tikki-Ritz-Carlton-Bahrain-6.jpg" alt="zdjęcie steka" />
+         <img class="img-fluid" id="steak2" src="http://cdn.luxuo.com/2017/06/Chow-Kik-Tikki-Ritz-Carlton-Bahrain-6.jpg" alt="zdjęcie steka" data-aos="slide-left" />
        </div>
-      <div class="col-12 col-lg-6 order-lg-2 order-1 info">
+      <div class="col-12 col-lg-6 order-lg-2 order-1 info" data-aos="fade-right">
         <h1>Znajdziesz tu wszystko</h1>
         <center><div class="line"></div></center>
         <h2>Mięsa</h2>
@@ -62,34 +63,34 @@
   </div>
   <div class="container-fluid recommendations">
     <div class="row recommendations_intro">
-      <div class="col-12">
+      <div class="col-12" data-aos="fade-up">
         <h6>rekomendacje</h6>
         <center><div class="line"></div></center>
         <h1>Co mówią o nas ludzie?</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-12 col-sm-6 col-lg-3 opinion">
+      <div class="col-12 col-sm-6 col-lg-3 opinion" data-aos="fade-left">
         <img class="stars" src="https://childrenscampus.com/cms/wp-content/uploads/five-stars.png" alt="gwiazdki" />
         <h3>“STRZAŁ W DZIESIĄTKĘ!”</h3>
         <p class="opinion_text">Idealne miejsce zarówno na obiad jak i wyjście ze znajomymi!
 Serdecznie polecam!</p>
         <p class="sign">Agata</p>
       </div>
-      <div class="col-12 col-sm-6 col-lg-3 opinion">
+      <div class="col-12 col-sm-6 col-lg-3 opinion" data-aos="fade-left">
         <img class="stars" src="https://childrenscampus.com/cms/wp-content/uploads/five-stars.png" alt="gwiazdki" />
         <h3>“NIEZAWODNA OBSŁUGA”</h3>
         <p class="opinion_text">Jedzenie jest smaczne i w przystępnej cenie, obsługa bardzo miła i pomocna. Restauracja na tip top!</p>
         <p class="sign">Tomasz</p>
       </div>
-      <div class="col-12 col-sm-6 col-lg-3 opinion">
+      <div class="col-12 col-sm-6 col-lg-3 opinion" data-aos="fade-right">
         <img class="stars" src="https://childrenscampus.com/cms/wp-content/uploads/five-stars.png" alt="gwiazdki" />
         <h3>“KOLEJNE WSPANIAŁE DOŚWIADCZENIE”</h3>
         <p class="opinion_text">Bałam się że to nie będzie to samo co zagraniczny Steak House i nie myliłam się, to coś o wiele lepszego! Miejsce jest niesamowite!
 Gorąco polecam!</p>
         <p class="sign">Monika</p>
       </div>
-      <div class="col-12 col-sm-6 col-lg-3 opinion">
+      <div class="col-12 col-sm-6 col-lg-3 opinion" data-aos="fade-right">
         <img class="stars" src="https://childrenscampus.com/cms/wp-content/uploads/five-stars.png" alt="gwiazdki" />
         <h3>“ZDUMIEWAJĄCE”</h3>
         <p class="opinion_text">Dania są niesamowite, a obszerna karta win pozwala przyjemnie spędzić tutaj piątkową noc.</p>
@@ -99,7 +100,7 @@ Gorąco polecam!</p>
   </div>
   <div class="container-fluid menu" id="Menu">
     <div class="row">
-      <div class="col-12 col-xl-4 menu_info">
+      <div class="col-12 col-xl-4 menu_info" data-aos="fade-down">
         <h6>Czy wiesz że...?</h6>
         <center><div class="line"></div></center>
         <h3>Co miesiąc zmieniamy kartę dań</h3>
@@ -144,7 +145,7 @@ Gorąco polecam!</p>
   <div class="container-fluid contact_container" id="Kontakt">
     <div class="row">
       <div class="col-12 col-lg-4 contact_info">
-        <div class="contact_text">
+        <div class="contact_text" data-aos="fade-up">
           <center>
             <img class="contact_logo" src="data:image/png;base64,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" alt="kontakt" height="100px" width="100px" />
           </center>
@@ -183,7 +184,8 @@ Gorąco polecam!</p>
       </div>
     </div>
   </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="main.js"></script>
