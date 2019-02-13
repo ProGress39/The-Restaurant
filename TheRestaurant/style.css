@@ -139,15 +139,20 @@
   font-family: "Cinzel", serif;
   color: white;
   text-align: center; }
-  .menu .menu_info h6 {
-    margin-bottom: -20px;
-    opacity: 0.7; }
-  .menu .menu_info h3 {
-    margin-top: -10px;
-    margin-bottom: 15px; }
-  .menu .menu_info p {
-    opacity: 0.7;
-    letter-spacing: 0.7px; }
+  .menu .menu_info {
+    margin-top: 20px; }
+    .menu .menu_info h6 {
+      margin-bottom: -20px;
+      opacity: 0.7; }
+    .menu .menu_info h3 {
+      margin-top: -10px;
+      margin-bottom: 15px; }
+    .menu .menu_info p {
+      opacity: 0.7;
+      letter-spacing: 0.7px; }
+  .menu .menu_gallery {
+    padding-right: 0;
+    padding-left: 0; }
   .menu .line {
     border-bottom: solid 3px #FFD700;
     width: 150px;

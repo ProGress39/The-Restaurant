@@ -5,6 +5,22 @@
 $navFont: 'Indie Flower', cursive;
 $pFont: 'Cinzel', serif;
 
+$grid-breakpoints: (
+  xs: 375px,
+  sm: 544px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px
+) !default;
+
+$container-max-widths: (
+  xs: 375px,
+  sm: 544px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px
+) !default;
+
 /*PC*/
 @media screen and (min-width: 1200px) {
 
@@ -186,6 +202,7 @@ $pFont: 'Cinzel', serif;
  color: white;
  text-align: center;
   .menu_info {
+  margin-top: 20px;
    h6 {
      margin-bottom: -20px;
      opacity: 0.7;
@@ -201,7 +218,8 @@ $pFont: 'Cinzel', serif;
 
   }
   .menu_gallery {
-
+   padding-right: 0;
+   padding-left: 0;
   }
   .line {
       border-bottom: solid 3px #FFD700;
