@@ -5,22 +5,6 @@
 $navFont: 'Indie Flower', cursive;
 $pFont: 'Cinzel', serif;
 
-$grid-breakpoints: (
-  xs: 375px,
-  sm: 544px,
-  md: 768px,
-  lg: 992px,
-  xl: 1280px
-) !default;
-
-$container-max-widths: (
-  xs: 375px,
-  sm: 544px,
-  md: 768px,
-  lg: 992px,
-  xl: 1280px
-) !default;
-
 * {
   margin: 0;
   padding: 0;
@@ -214,6 +198,8 @@ $container-max-widths: (
       margin-bottom: 20px;
     }
 }
+
+
 .contact {
   background-color: black;
   font-family: $pFont;
@@ -223,7 +209,7 @@ $container-max-widths: (
     font: inherit;
     margin: 0;
   }
-  
+
   input {
     line-height: normal;
     color: white;
@@ -236,6 +222,27 @@ $container-max-widths: (
     color: white;
     font: inherit;
     margin: 0;
+    background: none;
+    border: none;
+  	border-bottom: solid 2px white;
+  	color: white;
+  	font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+  	margin: 0em 0 1.875em 0;
+  	padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+  	width: 100%;
+    line-height: 150%;
+  	height: 150px;
+  	resize: none;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    	padding: 0 0 0.875em 0;
+    }
+
   }
 
   #container {
@@ -252,7 +259,7 @@ $container-max-widths: (
   	width: 45%;
   }
 
-  input[type='text'], [type='email'], textarea {
+  input[type='text'], [type='email'] {
   	background: none;
     border: none;
   	border-bottom: solid 2px white;
@@ -264,19 +271,9 @@ $container-max-widths: (
   	padding: 0 0 0.875em 0;
     text-transform: uppercase;
   	width: 100%;
-  	-webkit-box-sizing: border-box;
-  	-moz-box-sizing: border-box;
-  	-ms-box-sizing: border-box;
-  	-o-box-sizing: border-box;
-  	box-sizing: border-box;
-  	-webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	-ms-transition: all 0.3s;
-  	-o-transition: all 0.3s;
-  	transition: all 0.3s;
   }
 
-  input[type='text']:focus, [type='email']:focus, textarea:focus {
+  input[type='text']:focus, [type='email']:focus {
   	outline: none;
   	padding: 0 0 0.875em 0;
   }
@@ -295,13 +292,6 @@ $container-max-widths: (
   }
 
   .telephone {
-    width: 100%;
-  }
-
-  textarea {
-  	line-height: 150%;
-  	height: 150px;
-  	resize: none;
     width: 100%;
   }
 
@@ -336,11 +326,6 @@ $container-max-widths: (
     outline: none;
     padding: 20px 35px;
     text-transform: uppercase;
-    -webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	-ms-transition: all 0.3s;
-  	-o-transition: all 0.3s;
-  	transition: all 0.3s;
 
     &:hover {
       background: #474544;
