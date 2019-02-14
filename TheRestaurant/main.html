@@ -8,24 +8,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Steak House</title>
   </head>
+
   <!--nawigacja-->
   <header>
-    <nav class="topnav_all" data-aos="zoom-out">
-      <div class="topnav" id="myTopnav" data-aos="slide-right">
-        <a href="#MainPage">Strona główna</a>
-        <a href="#oNas">O nas</a>
-        <a href="#Menu">Menu</a>
-        <a href="#Kontakt">Kontakt</a>
-      </div>
-    </nav>
+    <div class="topnav" id="myTopnav">
+<a href="#MainPage">Strona Główna</a>
+<a href="#oNas">O nas</a>
+<a href="#Menu">Menu</a>
+<a href="#Kontakt">Kontakt</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+</a>
+<img src="https://www.logolynx.com/images/logolynx/e2/e2a264a6593a28d2dd00884513eaf03f.png" height="40px" width="40px" alt="logo" />
+</div>
   </header>
   <body>
+
+    <!--Obraz powitalny-->
     <div class="hero-image" id="MainPage" data-aos="zoom-out">
       <div class="hero-text">
         <h1>Steak House</h1>
         <p>Najlepsze steki w Polsce</p>
       </div>
     </div>
+
+    <!--Sekcja O nas z animacjami, tekstem i obrazkami-->
     <div class="container-fluid aboutUs" id="oNas">
       <div class="row">
         <div class="col-12 col-lg-6 info" data-aos="fade-left">
@@ -62,6 +69,8 @@
       </div>
     </div>
   </div>
+
+  <!--Sekcja z rekomendacjami-->
   <div class="container-fluid recommendations">
     <div class="row recommendations_intro">
       <div class="col-12" data-aos="fade-up">
@@ -99,6 +108,8 @@ Gorąco polecam!</p>
       </div>
     </div>
   </div>
+
+  <!--Sekcja menu, tekst i galeria w Bootstrapie-->
   <div class="container-fluid menu" id="Menu">
     <div class="row">
       <div class="col-12 col-xl-4 menu_info" data-aos="fade-down">
@@ -138,6 +149,8 @@ Gorąco polecam!</p>
       </div>
     </div>
   </div>
+
+  <!--Sekcja kontaktu-->
   <div class="contact_message">
     <h6>kontakt</h6>
     <center><div class="line"></div></center>
@@ -158,6 +171,8 @@ Gorąco polecam!</p>
             Może dołączysz do naszego teamu? Szukasz pracy? Wyślij wiadomość.</p>
         </div>
       </div>
+
+      <!--Formułka kontaktu-->
       <div class="col-12 col-lg-8 contact">
         <center><div id="container">
           <form action="#" method="post" id="contact_form">
